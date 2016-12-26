@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  date_of_birth: 2016-12-24
+  salary: 1.5
+  location: MyString
+
+two:
+  name: MyString
+  date_of_birth: 2016-12-24
+  salary: 1.5
+  location: MyString
