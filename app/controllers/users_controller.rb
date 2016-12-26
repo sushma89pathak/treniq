@@ -1,5 +1,5 @@
 class UsersController < ApplicationController
-  http_basic_authenticate_with :name => "user", :password => "password", only: [ :new, :edit, :destroy]
+  http_basic_authenticate_with :name => "user", :password => "password", only: [ :create, :update, :destroy]
   before_action :set_user, only: [:show, :update, :destroy]
 
     # GET /users
